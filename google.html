@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Google but with tailwind</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="flex justify-between text-sm text-gray-700">
+      <div class="flex items-center">
+        <a class="block p-4">About</a>
+        <a class="block p-4">Store</a>
+      </div>
+      <div class="flex items-center">
+        <a class="block p-4">Images</a>
+        <a class="block p-4">Advanced Search</a>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="flex justify-center pt-20">
+      <div>
+        <img
+          class="w-2/3 ml-auto mr-auto mb-6"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        />
+        <form
+          action="https://google.com/search"
+          class="flex border border-gray-200 rounded-full p-4 shadow text-xl"
+        >
+          <input
+            type="text"
+            placeholder="Search Google or type a URL"
+            autofocus
+            autocomplete="off"
+            class="w-full outline-none px-3"
+          />
+        </form>
+        <div class="mt-8 text-center">
+          <button
+            type="submit"
+            class="mr-3 bg-gray-200 border border-gray-300 py-3 px-4 rounded hover:bg-gray-400 hover:border-gray-500"
+          >
+            Google Search
+          </button>
+          <button
+            type="submit"
+            class="bg-gray-200 border border-gray-300 py-3 px-4 rounded hover:bg-gray-400 hover:border-gray-500"
+            class="bttn"
+          >
+            I'm Feeling Lucky
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="text-center p-5">
+      Google offered in:
+      <a href="https://www.google.fr/">Français</a>
+    </div>
+  </body>
+</html>
