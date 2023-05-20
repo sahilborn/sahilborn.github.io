@@ -1,194 +1,194 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
 }
 
-a{
-    text-decoration: none;
-    color: black; 
-}
-nav{
-    position: fixed;
-    top: 0%;
-    width: 100%;
-}
-nav a{
-    display: inline-block;
-    padding: 10px;
-}
-nav a:hover{
-    text-decoration: underline;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.toplinks{
-    margin-top: 10px;
-    display: flex;
-    padding-left:8px;
-    padding-right: 8px;
+a {
+  text-decoration: none;
+  color: black;
 }
-.tleft{
-    flex: 1;
-    padding-left: 18px;
+nav {
+  position: fixed;
+  top: 0%;
+  width: 100%;
 }
-.tright{
-    padding-right: 18px;
+nav a {
+  display: inline-block;
+  padding: 10px;
 }
-.googlelogo{
-    width: 270px;
+nav a:hover {
+  text-decoration: underline;
 }
-.bar{
-    background-image: url("img/search.png");
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 3%;
-    opacity: 50%;
-    border-radius: 50px;
-    border-color: rgb(255, 253, 253);
-    border-style: groove;
-    font-size: 17px;
-    padding: 10px 10px 10px 40px;
-    display: inline-block;
-    width: 85%;
-    color: black;
-}
-.bar:hover{
-    border: 2px solid rgb(182, 181, 181);
-    box-shadow: 0 0 4px rgb(187, 186, 186);
-    opacity: 70%;
-}
-.bar:focus{
-    outline: none;
-}
-.main1{
-    margin-top: 40px;
-    flex: 1;
-}
-.main1 .googlelogo{
-    display: block;
-    margin: 0px auto;
-    margin-top: 100px;
-}
-.main2{
-    margin: 0px auto;
-    width: 500px;
-    position: relative;
-    text-align: center;
-}
-.main2 .bar{
-    margin-top: 16px;
 
+.toplinks {
+  margin-top: 10px;
+  display: flex;
+  padding-left: 8px;
+  padding-right: 8px;
 }
-.bttn{
-    margin-top: 16px;
-    padding: 8px 18px;
-    margin-left: 5px;
-    border-style: none;
-    background-color: rgb(250, 249, 249);
-    color: rgb(54, 54, 54);
-    border-radius: 5px;
-    font-size: 14px;
+.tleft {
+  flex: 1;
+  padding-left: 18px;
 }
-.bttn:hover{
-    border: 1px solid rgb(182, 181, 181);
-    box-shadow: 0 0 3px rgb(187, 186, 186);
+.tright {
+  padding-right: 18px;
 }
-.image-btn{
-    color: transparent;
-    background-image: url(img/search.png);
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 50%;
+.googlelogo {
+  width: 270px;
 }
-.french{
-    text-align: center;
-    margin-top: 30px;
+.bar {
+  background-image: url('img/search.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 3%;
+  opacity: 50%;
+  border-radius: 50px;
+  border-color: rgb(255, 253, 253);
+  border-style: groove;
+  font-size: 17px;
+  padding: 10px 10px 10px 40px;
+  display: inline-block;
+  width: 85%;
+  color: black;
 }
-.french a{
-    color: rgb(3, 3, 194);
+.bar:hover {
+  border: 2px solid rgb(182, 181, 181);
+  box-shadow: 0 0 4px rgb(187, 186, 186);
+  opacity: 70%;
 }
-.french a:hover{
-    text-decoration: underline;
+.bar:focus {
+  outline: none;
+}
+.main1 {
+  margin-top: 40px;
+  flex: 1;
+}
+.main1 .googlelogo {
+  display: block;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+.main2 {
+  margin: 0px auto;
+  width: 500px;
+  position: relative;
+  text-align: center;
+}
+.main2 .bar {
+  margin-top: 16px;
+}
+.bttn {
+  margin-top: 16px;
+  padding: 8px 18px;
+  margin-left: 5px;
+  border-style: none;
+  background-color: rgb(250, 249, 249);
+  color: rgb(54, 54, 54);
+  border-radius: 5px;
+  font-size: 14px;
+}
+.bttn:hover {
+  border: 1px solid rgb(182, 181, 181);
+  box-shadow: 0 0 3px rgb(187, 186, 186);
+}
+.image-btn {
+  color: transparent;
+  background-image: url(img/search.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 50%;
+}
+.french {
+  text-align: center;
+  margin-top: 30px;
+}
+.french a {
+  color: rgb(3, 3, 194);
+}
+.french a:hover {
+  text-decoration: underline;
 }
 
 /* ADVANCED SEARCH */
 
-.gleft{
-    flex:1 ;
-    margin-left: 5px;
-    margin-top: 5px;
+.gleft {
+  flex: 1;
+  margin-left: 5px;
+  margin-top: 5px;
 }
-.advanced-image{
-    width: 70px;
+.advanced-image {
+  width: 70px;
 }
-.advanced-title{
-    font-size: 20px;
-    font-weight: lighter;
-    color: rgb(223, 4, 4);
-    margin: 80px 0px 10px 20px;
+.advanced-title {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(223, 4, 4);
+  margin: 80px 0px 10px 20px;
 }
-.title2{
-    margin-top: 20px;
-    margin-left: 20px;
-    font-weight: lighter;
-    font-size: 15px;
+.title2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: lighter;
+  font-size: 15px;
 }
-.line{
-    width: 100%;
-    background-color: rgb(219, 217, 217);
-    height: 1px;
-    margin-top: 30px;
-    margin-bottom: 40px;
+.line {
+  width: 100%;
+  background-color: rgb(219, 217, 217);
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
-table{
-    margin-left: 14px;
-    border: transparent;
+table {
+  margin-left: 14px;
+  border: transparent;
 }
-.empty-search{
-    width:60%
+.empty-search {
+  width: 60%;
 }
-.col{
-    margin: 30px 5px 10px 5px;
+.col {
+  margin: 30px 5px 10px 5px;
 }
-.col2{
-    margin: 24px 5px 10px 5px;
-    width: 60%;
+.col2 {
+  margin: 24px 5px 10px 5px;
+  width: 60%;
 }
-.advanced-input{
-    width: 300px;
-    height: 25px;
-    border-color: rgb(221, 220, 220);
-    border-width: 1px;
-    padding-left: 5px;
+.advanced-input {
+  width: 300px;
+  height: 25px;
+  border-color: rgb(221, 220, 220);
+  border-width: 1px;
+  padding-left: 5px;
 }
-.advanced-input:hover{
-    border-color: rgb(68, 133, 253);
+.advanced-input:hover {
+  border-color: rgb(68, 133, 253);
 }
-.advanced-input:focus{
-    outline: none;
+.advanced-input:focus {
+  outline: none;
 }
-h2{
-    font-weight: lighter;
-    font-size: 14px !important;
+h2 {
+  font-weight: lighter;
+  font-size: 14px !important;
 }
-.btn{
-    font-size: 14px;
-    margin-top: 30px;
-    margin-left: 60%;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 3px;
-    border-style: none;
-    background-color: #0275d8;
+.btn {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: 60%;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: #0275d8;
 }
-.btn:hover{
-    background-color: #035faf;
+.btn:hover {
+  background-color: #035faf;
 }
